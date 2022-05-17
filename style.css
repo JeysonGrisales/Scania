@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../img/img-sec/Presentacion22.jpg);
+  background-size: cover;
+
+}
+
+header {
+  background-color:  #00005898;
+  width: 100%;
+  height: 10%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header > img{
+  width: 10%;
+  margin-left: 40px;
+  margin-top: 35px;
+}
+
+#link{
+  margin-top: 10px;
+  width: 28%;
+  float: right;
+  margin-left:65rem;
+  background-color: rgba(0, 0, 0, 0)
+}
+
+#link ul{
+  text-align: center;
+}
+
+#link ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 10px;
+
+}
+
+#link ul li a{
+  text-decoration: none;
+  background: linear-gradient(0deg, #ffffff46, #2f00ffea, #ffffff3f);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#link ul li a:hover{
+  color: aquamarine;
+  background: #ff0000
+}
+
+nav {
+  background-color: #00005898;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;  
+  flex-wrap: wrap;
+}
+
+
+#mains{
+  width: 100%;
+  height: 100%;
+  background: url("/tallergityop/tallergit/tallergit/tallergit/MP-283/Images/fondo5.jpg");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 70%;
+  height: 80%;
+  background-color: rgba(0, 0, 88, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+}
+
+h2 {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+select {
+  margin-top: 1rem;
+  width: 18rem;
+  font-size: 1.2rem;
+  color: #000041;
+  border-radius: 15px;  
+}
+
+select > option {
+  cursor: pointer;
+}
+
+#btn-cart {
+  background: #fcfbfb;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  display: flex;
+}
+
+#btn-card {
+  width: 50%;
+  height: 50%;
+  background: #440bdf;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  display: flex;
+}
+
+
+
+.fa-cart-plus {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #000000;
+  margin: 0.2rem;
+}
+
+
+#p-counter {
+  font-size: 0.5rem;
+  background-color: #000041;
+  color: #fff;
+  margin-right: 0.5rem;
+  border-radius: 50%; 
+  width: 1.3rem;
+  height: 1.3rem;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  position: relative;
+  bottom: 6px;  
+}
+
+#main-market {
+  width: 100%;
+  height: auto;
+  background: url("/tallergityop/tallergit/tallergit/tallergit/MP-283/Images/fondo5.jpg");
+  margin-top:2%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardPrueba {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 10px;
+  border: solid 2px #000041;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;  
+  background-color:  #ffffff98;
+}
+
+.cardPrueba img{
+  margin: 1rem;
+}
+
+.header-card {
+  width: 100%;
+  height: 2rem;
+  border-radius: 7px 7px 0 0;  
+  background:linear-gradient(to bottom, #00043b, #4ad5f8);
+  display: flex;
+  justify-content: center;
+  margin: 0;  
+  padding: 0;
+}
+
+.title-card {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#p-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #030141;
+  font-family: 'Roboto', sans-serif;
+}
+
+.img-card {
+  width: 65%;
+  height: 13rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000041;
+  background-size: cover;
+  background-position: center;  
+  margin-top: 1.5rem;
+}
+
+.footer-card {
+  width: 100%;
+  height: 10%;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;    
+}
+
+#p-price {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fefeff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-add  {
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 28px;
+  box-shadow: 0px 5px 3px #666666;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #736e71 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from( #000058), to(#ffffff));  
+  cursor: pointer;
+  width: 10rem;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-add:hover {
+  background: #080808;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+footer {
+  background: rgb(0, 0, 88);
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+footer > h3{
+  margin: 2rem;
+  color: #ffffff;
+}
